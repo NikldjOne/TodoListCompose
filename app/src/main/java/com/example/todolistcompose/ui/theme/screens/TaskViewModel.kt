@@ -11,4 +11,7 @@ class TaskViewModel: ViewModel() {
     fun addTask (task: String){
         tasks.add(task)
     }
+    fun removeTask(task: String){
+        tasks.remove(task)
+    }
 }
